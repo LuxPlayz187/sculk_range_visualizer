@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "sculkrange",
+	"version": "${version}",
+	"name": "Sculk Range Visualizer",
+	"description": "Client-side overlay that shows the vibration detection range of Sculk Sensors and Calibrated Sculk Sensors. Toggle with a hotkey (default: V).",
+	"authors": ["You"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["dev.sculkrange.SculkRangeClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
